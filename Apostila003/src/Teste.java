@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import
+
 public class Teste {
     public static void main(String[] args) {
 
@@ -22,7 +21,5 @@ public class Teste {
         float altura = 1.80f;
         double preco = 340.00;
 
-
-        arro arro1 = new arro()
     }
 }

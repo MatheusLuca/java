@@ -1,4 +1,4 @@
-public class arro {
+public class Carro {
 
     String modelo;
     int velocidadeMaxima;
@@ -7,6 +7,8 @@ public class arro {
     boolean automatico;
     short ano;
     float altura;
+
+    // O que é uma classe -> modelo que serão estruturados os objetos.
 
 
 }
