@@ -34,7 +34,7 @@ public class ExemploEntradaDados {
         double mediaCh = (ch1 + ch2) / 2;
 
         double mediaFinal = ( (mediaCps * 0.2) + ( mediaCh * 0.2) + ( mediaGs * 0.6) );
-        System.out.println(mediaFinal);
+        System.out.println("Media final foi de? " + mediaFinal);
 
     }
 
