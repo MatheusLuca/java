@@ -14,6 +14,8 @@ public class Produto {
         return desconto;
     }
 
-
+    public void aumentarPreco(double procentagem){
+        preco += preco * (procentagem / 100);
+    }
 
 }
