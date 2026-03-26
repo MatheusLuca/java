@@ -9,4 +9,11 @@ public class Produto {
     public boolean disponivel;
     public Fornecedor fornecedor;
 
+    public double calcularDesconto(){
+        double desconto = preco * 0.2;
+        return desconto;
+    }
+
+
+
 }
