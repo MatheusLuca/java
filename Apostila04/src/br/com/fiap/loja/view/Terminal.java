@@ -57,6 +57,16 @@ public class Terminal {
         System.out.println("Informações de fornecedores: ");
         System.out.println(product.fornecedor.cnpj);
         System.out.println(product.fornecedor.nome);
-        
+
+        System.out.println(product.calcularDesconto());
+        double promocao = product.preco - product.calcularDesconto();
+        System.out.println("Preco com desconto aplicado: " + promocao);
+
+        System.out.println("Digite a porcentagem que voce quer aumentar: ");
+        Double porcentagemAumento = entrada.nextDouble();
+        product.aumentarPreco(porcentagemAumento);
+        System.out.println("Novo Preço: " + product.preco);
+
+
     }
 }
