@@ -18,4 +18,8 @@ public class Produto {
         preco += preco * (procentagem / 100);
     }
 
+    //tarefa criar um metodo para calcular o valor total da compra
+    // dado a quantidade, calcular o valor da compra comprou 10 produtos quanto da no final
+
+
 }
