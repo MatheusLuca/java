@@ -23,6 +23,9 @@ public class Terminal {
         System.out.println("O produto está disponível? (true/false)");
         boolean disponivel = entrada.nextBoolean();
 
+        System.out.println("Quantidade comprada do produto");
+        int quantidadeProduto = entrada.nextInt();
+
         //Instanciar a classe produto
         Produto product = new Produto();
         // Instanciando o objeto fornecedor.
@@ -62,10 +65,13 @@ public class Terminal {
         double promocao = product.preco - product.calcularDesconto();
         System.out.println("Preco com desconto aplicado: " + promocao);
 
+
         System.out.println("Digite a porcentagem que voce quer aumentar: ");
         Double porcentagemAumento = entrada.nextDouble();
         product.aumentarPreco(porcentagemAumento);
         System.out.println("Novo Preço: " + product.preco);
+
+        System.out.println("Valor total produto: " + product.calcularTotalCompra(quantidadeProduto));
 
 
     }

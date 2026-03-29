@@ -9,6 +9,7 @@ public class Produto {
     public boolean disponivel;
     public Fornecedor fornecedor;
 
+
     public double calcularDesconto(){
         double desconto = preco * 0.2;
         return desconto;
@@ -18,8 +19,14 @@ public class Produto {
         preco += preco * (procentagem / 100);
     }
 
+    public double calcularTotalCompra( int quantidade){
+        double precoFinal = preco * quantidade;
+        return precoFinal;
+    }
+
     //tarefa criar um metodo para calcular o valor total da compra
     // dado a quantidade, calcular o valor da compra comprou 10 produtos quanto da no final
+
 
 
 }
