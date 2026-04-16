@@ -10,10 +10,12 @@ public class Produto {
 
     // Nome do metodo Construtor deve ser igual ao nome da classe
     public Produto( int id , String nome, boolean fragil, double peso, float volume){
-        this.id = id;
-        this.nome = nome;
+
+        this(nome , peso, id);
+        //this.id = id;
+        //this.nome = nome;
         this.fragil = fragil;
-        this.peso = peso;
+        //this.peso = peso;
         this.volume = volume;
     }
 
