@@ -17,7 +17,11 @@ public class Produto {
         this.volume = volume;
     }
 
-
+    public Produto(String nome , double peso , int id  ){
+        this.nome = nome;
+        this.peso = peso;
+        this.id = id;
+    }
 
     public int getId() {
         return id;
