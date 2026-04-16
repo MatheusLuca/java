@@ -8,6 +8,17 @@ public class Produto {
     private double peso;
     private float volume;
 
+    // Nome do metodo Construtor deve ser igual ao nome da classe
+    public Produto( int id , String nome, boolean fragil, double peso, float volume){
+        this.id = id;
+        this.nome = nome;
+        this.fragil = fragil;
+        this.peso = peso;
+        this.volume = volume;
+    }
+
+
+
     public int getId() {
         return id;
     }
